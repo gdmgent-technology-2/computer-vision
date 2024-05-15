@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 3
-names: ['football', 'player', 'referee']
+names: ["football", "player", "referee"]
 
 roboflow:
   workspace: roboflow-100

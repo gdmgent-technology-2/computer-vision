@@ -12,7 +12,7 @@ def draw_boxes(image, boxes, confidences, class_ids, classes, color_map):
     - class_ids: List of class IDs for each bounding box.
     - classes: List of class names corresponding to class IDs.
     """
-    font_scale = 1  # Increased font scale
+    font_scale = 0.5  # Increased font scale
     thickness = 1  # Increased thickness for the text
     font_color = (255, 255, 255)  # Changed font color to black
 
